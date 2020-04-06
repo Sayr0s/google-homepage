@@ -1,0 +1,70 @@
+body { 
+    margin:0;
+    padding: 0;
+    font-family: arial;
+    font-size: 16px;
+}
+p {
+    font-size: 14px;
+}
+ul {
+    margin-top: 30px;
+    margin-right:20px;
+}
+li {
+    width: 40px;
+    height:20px;
+    float:right;
+    list-style-type:none;
+    padding:10px;
+}
+li:nth-child(2){
+    background:url(images/apps.png) no-repeat;
+    background-size: 30px;
+    margin-left: 20px;
+    margin-top: auto; 
+}
+button {
+    background-color: gray;
+    color:white;
+    border:1px solid;
+    font-weight: Bold;
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: -5px;
+    cursor:pointer;
+}
+li:hover { cursor:pointer;}
+#content{
+    margin-top:200x ;
+    margin-left:300px ;
+    width:700px;
+    height: 125;
+    }
+
+.Searchbox {
+    width:580px;
+    height: 45px;
+    border:0.5px solid;
+    border-radius: 30px;
+    border-color: rgba(0,0,0,0.3);
+}
+.Button2 {
+    background-color: #f2f2f2;
+    color:#5F6368;
+    font-size:14px;
+    font-weight:normal;
+    border:1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+.language {
+    color:blue;
+    cursor:pointer;
+}
+.language:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
