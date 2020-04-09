@@ -1,3 +1,4 @@
+/* Google index homepage starts here */
 body { 
     margin:0;
     padding: 0;
@@ -25,6 +26,10 @@ li:nth-child(2){
     margin-left: 20px;
     margin-top: auto; 
     margin-top: 10px;
+    opacity: 0.5;
+}
+li:nth-child(2):hover{
+    opacity: 1;
 }
 .button1 {
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
@@ -124,11 +129,11 @@ li:hover { cursor:pointer;
     border-color: #e4e4e4;
 }
 .bottomleft {
-color:#5F6368;
-float:left;
-padding:5px;
-margin-left:20px;
-margin-bottom:5px;
+    color:#5F6368;
+    float:left;
+    padding:5px;
+    margin-left:20px;
+    margin-bottom:5px;
 }
 .bottomright {
     color:#5F6368;
@@ -145,3 +150,4 @@ margin-bottom:5px;
     text-decoration: underline;
     cursor: pointer;
 }
+/* Google homepage index ends here */ 
